@@ -1,0 +1,147 @@
+html{
+    background-color: black;
+}
+#logo{
+
+}
+/* h1{
+    text-align: center;
+      color: rgb(185, 2, 2);
+    font-size: 70px;
+    text-decoration: underline;
+    border: solid white;
+    padding: 10px;
+} */
+u{
+    color: white;
+}
+h3{
+    /* word-spacing: 30px; */
+    color: white;
+    background-color: rgb(24, 23, 23);
+    padding: 20px;
+}
+div{
+    color: gray;
+    padding: 10px;
+    text-align: center;
+}
+h2{
+    color: white;
+    background-color: rgb(24, 23, 23);
+    padding: 5px;
+}
+p.firstletter::first-letter{
+    color: red;
+    font-size: 30px;
+    font-weight: 700;
+}
+p{
+    color: white;
+    line-height: 25px;
+    word-spacing: 1px;
+    margin: 15px 20px;
+    text-align: justify;
+}
+.navbar{
+    /* margin: 0px; */
+    /* text-align: center; */
+    background-color: rgb(24, 23, 23);
+    border: solid white;
+    /* padding: 20px; */
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;      
+}
+.navbar div{
+    font-size: 20px;
+    color: white;
+    /* min-width: 200px; */
+    /* margin-right: 20px; */
+    /* margin: 10px 20px; */
+    /* padding: auto; */
+    
+}
+.navbar div:hover{
+    color: red;
+    cursor: pointer;
+    text-decoration: underline 2px;
+    text-transform: none;
+    /* text-align: justify; */
+}
+input{
+    background-color: white;
+    height: 27px;
+    color: black;
+}
+/* button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+} */
+li:nth-child(odd){
+    color: rgb(189, 35, 35);
+    background-color: rgb(24, 23, 23);
+    text-align: justify;
+    font-size: 20px;
+    padding: 4px;
+}
+li{
+    text-align: justify;
+    font-size: 20px;
+    padding: 4px;
+  }
+  .edit{
+    text-decoration: underline;
+    text-align: left;
+  }
+  a{
+    font-size: 20px;
+    color: aliceblue;
+  }
+  table, tr, td, th{
+    color: white;
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 12px;
+    margin: 30px;
+  }
+  th{
+    background-color: rgb(58, 56, 56);
+    font-size: 20px;
+  }
+  td{
+    background-color: rgb(100, 95, 95);
+  }
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .tableResponisive{
+    width: 100%;
+    overflow-x: scroll;
+  }
+  #list{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+  #lastp{
+    text-align: center;
+  }
+  #policies{
+    display: ;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+  }
+
+  .images{
+    border: solid red;
+    /* padding: 10px; */
+    margin: 10px 0px;
+  }
